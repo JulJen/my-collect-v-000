@@ -1,14 +1,12 @@
 def my_collect(collection)
-  i = 0
-  arr = []
-  my_collect(arr) do |x|
-    i += 1
+    i = 0
+    empty_array = []
+    while i < collection.length
+      empty_array << yield(collection[i])
+      i += 1
+    end
+    collection
   end
-end
-#       counter += 1
-#     end
-
-#
 #
 # it "can handle an empty collection" do
 #   empty_array = []
