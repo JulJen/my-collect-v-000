@@ -8,7 +8,6 @@ def my_collect(collection)
     collection
   else
     collection.upcase
-  
   end
 #
 # it "can handle an empty collection" do
