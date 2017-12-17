@@ -1,12 +1,12 @@
 def my_collect(collection)
   i = 0
-  collection = []
-  while i < array.length
-    collection << yield(collection[i])
+  arr = []
+  my_collect(arr) do |x|
     i += 1
   end
-  collection
 end
+#       counter += 1
+#     end
 
 #
 #
