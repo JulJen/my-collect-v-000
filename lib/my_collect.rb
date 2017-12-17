@@ -6,8 +6,6 @@ def my_collect(collection)
       i += 1
     end
     collection
-  else
-    empty_array.upcase
   end
 #
 # it "can handle an empty collection" do
