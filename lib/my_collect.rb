@@ -5,7 +5,7 @@ def my_collect(collection)
       empty_array << yield(collection[i]).upcase
       i += 1
     end
-    collection
+    empty_array
   end
 #
 # it "can handle an empty collection" do
